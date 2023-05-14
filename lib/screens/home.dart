@@ -1,4 +1,4 @@
-// ignore_for_file: camel_case_types, prefer_const_constructors_in_immutables, prefer_const_constructors
+// ignore_for_file: camel_case_types, prefer_const_constructors_in_immutables, prefer_const_constructors, avoid_print
 
 import 'package:flutter/material.dart';
 
@@ -10,6 +10,7 @@ class home extends StatefulWidget {
 }
 
 class _homeState extends State<home> {
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
